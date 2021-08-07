@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bish-Bosh</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+<div class="row">
+    <h1 class="text-warning">Bish-Bosh Part 2</h1> 
+</div>
+<div class="row" id="input-div">
+<p class="text-light">Bish:</p> <input type="number" class="form-control m-2" id="bish">
+<p class="text-light">Bosh:</p> <input type="number" class="form-control m-2" id="bosh">
+<p class="text-light">Count to:</p> <input type="number" class="form-control m-2" id="count">
+ <button class="btn btn-warning" onclick="print()">Start</button>
+</div>
+<div class="row">
+    <p id="message"></p>
+
+</div>
+<div class="row" id="result-div">
+    <div class="panel panel-info">
+        <div class="panel-heading text-light">Show Result:</div>
+        <div class="panel-body" id="result">
+
+        </div>
+    </div>
+</div>
+
+
+<footer class="text-center">Bish-Bosh 2.0 Sunisa Kanchanasuwan<i class="glyphicon glyphicon-copyright-mark"></i></footer>
+
+    </div>
+<script src="bishbosh.js"></script>
+</body>
+</html>
